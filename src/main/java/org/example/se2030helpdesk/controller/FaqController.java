@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/faqs")
 @CrossOrigin
-public class FaqController {
+public class  FaqController {
     private final FaqService faqService;
     private final ValidationService validationService;
     

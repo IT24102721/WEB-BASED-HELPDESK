@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class FaqService {
+public class  FaqService {
     private final FaqRepository faqRepository;
 
     public FaqService(FaqRepository faqRepository) {

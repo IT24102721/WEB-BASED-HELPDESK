@@ -7,7 +7,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "events")
-public class Event {
+public class  Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

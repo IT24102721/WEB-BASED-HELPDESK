@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class EventRequestService {
+public class  EventRequestService {
     private final EventRequestRepository repo;
     private final EventService eventService;
 

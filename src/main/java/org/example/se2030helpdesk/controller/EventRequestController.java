@@ -14,7 +14,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/event-requests")
 @CrossOrigin
-public class EventRequestController {
+public class EventRequestController  {
     private final EventRequestService service;
     private final UserService userService;
 

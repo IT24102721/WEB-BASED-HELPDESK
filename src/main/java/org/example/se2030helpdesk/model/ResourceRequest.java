@@ -5,7 +5,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "resource_requests")
-public class ResourceRequest {
+public class  ResourceRequest  {
     public enum Status { PENDING, APPROVED, REJECTED }
 
     @Id

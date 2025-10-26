@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class IssueReportService {
+public class   IssueReportService {
     private final IssueReportRepository issueReportRepository;
     private final ResourceService resourceService;
 

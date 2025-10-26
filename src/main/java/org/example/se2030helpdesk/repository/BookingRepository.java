@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface BookingRepository extends JpaRepository<Booking, Long> {
+public interface  BookingRepository extends JpaRepository<Booking, Long> {
     List<Booking> findByUserIdAndActiveTrueOrderByBookedAtDesc(Long userId);
     List<Booking> findByEventIdAndActiveTrue(Long eventId);
     Optional<Booking> findByEventIdAndUserIdAndActiveTrue(Long eventId, Long userId);

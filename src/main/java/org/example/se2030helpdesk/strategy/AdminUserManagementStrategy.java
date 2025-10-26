@@ -7,12 +7,9 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Strategy for admin user management.
- * Admins can manage most users but not super admins.
- */
+
 @Component
-public class AdminUserManagementStrategy implements UserManagementStrategy {
+public class  AdminUserManagementStrategy implements UserManagementStrategy {
     
     @Override
     public boolean canHandle(UserRole role) {

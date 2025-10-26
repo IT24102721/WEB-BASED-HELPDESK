@@ -16,7 +16,7 @@ public class BookingService {
     private final EventRepository eventRepository;
 
     public BookingService(BookingRepository bookingRepository, EventRepository eventRepository) {
-        this.bookingRepository = bookingRepository;
+        this.bookingRepository =  bookingRepository;
         this.eventRepository = eventRepository;
     }
 

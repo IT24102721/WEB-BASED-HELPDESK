@@ -7,7 +7,7 @@ import java.time.LocalTime;
 
 @Entity
 @Table(name = "event_requests")
-public class EventRequest {
+public class  EventRequest {
     public enum Status { PENDING, APPROVED, REJECTED }
 
     @Id

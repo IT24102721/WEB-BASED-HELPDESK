@@ -5,7 +5,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "faqs")
-public class Faq {
+public class  Faq {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

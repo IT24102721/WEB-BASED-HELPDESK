@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface EventRequestRepository extends JpaRepository<EventRequest, Long> {
+public interface  EventRequestRepository extends JpaRepository<EventRequest, Long> {
     List<EventRequest> findByStatusOrderByCreatedAtAsc(EventRequest.Status status);
 }
 

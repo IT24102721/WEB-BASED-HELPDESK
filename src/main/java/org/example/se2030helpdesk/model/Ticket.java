@@ -11,7 +11,7 @@ public class Ticket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne(optional = false, fetch = FetchType.EAGER)
+    @ManyToOne (optional = false, fetch = FetchType.EAGER)
     @JoinColumn(name = "student_id")
     @JsonIgnoreProperties({"passwordHash", "active"})
     private User student;

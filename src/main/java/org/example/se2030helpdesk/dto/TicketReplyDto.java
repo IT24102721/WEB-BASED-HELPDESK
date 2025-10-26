@@ -7,7 +7,7 @@ public class TicketReplyDto {
 
     public TicketReplyDto() {}
 
-    public Long getTicketId() { return ticketId; }
+    public Long getTicketId()  { return ticketId; }
     public void setTicketId(Long ticketId) { this.ticketId = ticketId; }
 
     public Long getUserId() { return userId; }

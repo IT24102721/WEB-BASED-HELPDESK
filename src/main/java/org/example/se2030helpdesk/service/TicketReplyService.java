@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Service
 public class TicketReplyService {
-    private final TicketReplyRepository ticketReplyRepository;
+    private final  TicketReplyRepository ticketReplyRepository;
 
     public TicketReplyService(TicketReplyRepository ticketReplyRepository) {
         this.ticketReplyRepository = ticketReplyRepository;

@@ -8,7 +8,7 @@ import java.time.Instant;
 @Table(name = "ticket_replies")
 public class TicketReply {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne(optional = false, fetch = FetchType.EAGER)

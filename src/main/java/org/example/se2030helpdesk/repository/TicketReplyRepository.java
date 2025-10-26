@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface TicketReplyRepository extends JpaRepository<TicketReply, Long> {
+public interface  TicketReplyRepository extends JpaRepository<TicketReply, Long> {
     List<TicketReply> findByTicketOrderByCreatedAtAsc(Ticket ticket);
 }

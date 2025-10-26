@@ -1,0 +1,39 @@
+# Ignore HTML and CSS files
+*.html
+*.css
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Ignore build and compiled files
+build/
+out/
+target/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore virtual environments (if using Python)
+venv/
+env/
+
+# Ignore Gradle files (if using Gradle)
+.gradle/
+gradlew.bat
+gradlew
+
+# Ignore Maven files (if using Maven)
+.mvn/

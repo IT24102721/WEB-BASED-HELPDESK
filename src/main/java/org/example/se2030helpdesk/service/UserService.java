@@ -12,7 +12,7 @@ import java.util.Optional;
 @Service
 public class  UserService {
 
-    private  final UserRepository userRepository;
+    private final UserRepository userRepository;
     private final UserManagementContext userManagementContext;
 
     public UserService(UserRepository userRepository, UserManagementContext userManagementContext) {

@@ -1,6 +1,6 @@
 package org.example.se2030helpdesk.model;
 
-public  enum  UserRole {
+public enum  UserRole {
     STUDENT,
     STAFF,
     ADMIN,

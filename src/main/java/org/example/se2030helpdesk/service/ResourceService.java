@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class  ResourceService {
+public class   ResourceService {
     private final ResourceRepository resourceRepository;
 
     public ResourceService(ResourceRepository resourceRepository) {

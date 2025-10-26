@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/resource-requests")
 @CrossOrigin
-public class  ResourceRequestController {
+public class   ResourceRequestController {
     private final ResourceRequestService requestService;
     private final UserService userService;
 

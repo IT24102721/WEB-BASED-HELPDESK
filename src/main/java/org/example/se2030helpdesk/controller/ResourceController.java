@@ -87,7 +87,7 @@ public class ResourceController {
     public ResponseEntity<Resource> updateResourceStatus(@PathVariable Long id, @RequestBody Map<String, String> statusUpdate) {
         try {
             Resource.Status status = Resource.Status.valueOf(statusUpdate.get("status"));
-            Resource updatedResource = resourceService.updateStatus(id, status);
+            Resource updatedResource = resourceService.updateStatus(id,  status);
             return ResponseEntity.ok(updatedResource);
         } catch (Exception e) {
             return ResponseEntity.badRequest().build();

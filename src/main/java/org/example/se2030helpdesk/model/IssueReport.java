@@ -5,7 +5,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "issue_reports")
-public class IssueReport {
+public class  IssueReport {
     public enum Status { OPEN, IN_PROGRESS, RESOLVED }
 
     @Id

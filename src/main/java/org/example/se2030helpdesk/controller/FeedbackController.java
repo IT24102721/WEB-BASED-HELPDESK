@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/feedback")
 @CrossOrigin
-public class FeedbackController {
+public class  FeedbackController {
     private final FeedbackService feedbackService;
     private final ValidationService validationService;
     

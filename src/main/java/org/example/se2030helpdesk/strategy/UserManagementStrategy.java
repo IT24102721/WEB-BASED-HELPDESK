@@ -6,7 +6,7 @@ import org.example.se2030helpdesk.model.UserRole;
 import java.util.List;
 import java.util.Optional;
 
-public interface UserManagementStrategy {
+public interface  UserManagementStrategy {
     
 
     boolean canHandle(UserRole role);

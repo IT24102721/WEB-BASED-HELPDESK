@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/bookings")
 @CrossOrigin
 public class BookingController {
-    private final BookingService bookingService;
+    private final  BookingService bookingService;
     private final EventService eventService;
 
     public BookingController(BookingService bookingService, EventService eventService) {

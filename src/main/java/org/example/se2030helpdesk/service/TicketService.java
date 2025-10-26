@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class TicketService {
+public class  TicketService {
     private final TicketRepository ticketRepository;
 
     public TicketService(TicketRepository ticketRepository) {

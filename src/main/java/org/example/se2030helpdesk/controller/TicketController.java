@@ -18,7 +18,7 @@ import java.util.Optional;
 @CrossOrigin
 public class TicketController {
     private final TicketService ticketService;
-    private final UserRepository userRepository;
+    private final  UserRepository userRepository;
     
     public TicketController(TicketService ticketService, UserRepository userRepository){ 
         this.ticketService = ticketService; 

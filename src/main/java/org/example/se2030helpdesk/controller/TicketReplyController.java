@@ -17,7 +17,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/ticket-replies")
 @CrossOrigin
-public class TicketReplyController {
+public class  TicketReplyController {
     private final TicketReplyService ticketReplyService;
     private final TicketService ticketService;
     private final UserRepository userRepository;

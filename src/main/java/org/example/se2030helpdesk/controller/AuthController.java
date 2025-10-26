@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("/api/auth")
 @CrossOrigin
 public class  AuthController {
-    private final UserRepository userRepository;
+    private  final UserRepository userRepository;
     private final ValidationService validationService;
     
     public AuthController(UserRepository userRepository, ValidationService validationService) { 

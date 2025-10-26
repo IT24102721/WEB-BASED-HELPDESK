@@ -18,7 +18,7 @@ import java.util.Optional;
 @RequestMapping("/api/users")
 @CrossOrigin
 public class  UserController {
-    private final UserService userService;
+    private  final UserService userService;
     private final EmailService emailService;
     private final AuditService auditService;
     private final ValidationService validationService;

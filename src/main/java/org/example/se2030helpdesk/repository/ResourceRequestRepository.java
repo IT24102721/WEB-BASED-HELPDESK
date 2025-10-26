@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ResourceRequestRepository extends JpaRepository<ResourceRequest, Long> {
+public interface  ResourceRequestRepository extends JpaRepository<ResourceRequest, Long> {
     List<ResourceRequest> findByStatus(ResourceRequest.Status status);
     List<ResourceRequest> findByUserIdOrderByRequestDateDesc(Long userId);
     List<ResourceRequest> findByResourceIdOrderByRequestDateDesc(Long resourceId);

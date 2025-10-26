@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface IssueReportRepository extends JpaRepository<IssueReport, Long> {
+public interface  IssueReportRepository extends JpaRepository<IssueReport, Long> {
     List<IssueReport> findByStatus(IssueReport.Status status);
     List<IssueReport> findByUserIdOrderByReportDateDesc(Long userId);
     List<IssueReport> findByResourceIdOrderByReportDateDesc(Long resourceId);

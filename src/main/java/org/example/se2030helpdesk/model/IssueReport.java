@@ -9,7 +9,7 @@ public class IssueReport {
     public enum Status { OPEN, IN_PROGRESS, RESOLVED }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne(optional = false)

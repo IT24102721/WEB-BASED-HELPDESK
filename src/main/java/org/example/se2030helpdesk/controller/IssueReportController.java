@@ -11,7 +11,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/issue-reports")
 @CrossOrigin
-public class IssueReportController {
+public class  IssueReportController {
     private final IssueReportService issueReportService;
 
     public IssueReportController(IssueReportService issueReportService) {

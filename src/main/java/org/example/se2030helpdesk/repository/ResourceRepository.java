@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface ResourceRepository extends JpaRepository<Resource, Long> {
+public interface ResourceRepository  extends JpaRepository<Resource, Long> {
     List<Resource> findByStatus(Resource.Status status);
     List<Resource> findByCategory(String category);
     List<Resource> findByLocation(String location);
